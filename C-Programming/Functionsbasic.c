@@ -3,18 +3,16 @@ void add()
 {
 	
 	int a,b,c;
-	printf("\n\tEnter Number for a");
+	printf("Enter the first number to add : \n");
 	scanf("%d",&a);
-	printf("\n\tEnter Number for b");
+	printf("Enter the second number to add: \n");
 	scanf("%d",&b);
 	c=a+b;
-	printf("\n\t\tTotal %d",c);
+	printf("Total %d",c);
 	
 }
 int main()
 {
 	add();
-	add();
-	
 	return 0;
 }
