@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int ch,qty,i,net=0;
+	int choice,qty,i,net=0;
 	again:	
 	printf("\n\tMenu Card");
 	printf("\n\t\t1.COFFEE      RS:15");
@@ -9,8 +9,8 @@ int main()
 	printf("\n\t\t3.COLD COFFEE RS:25");
 	printf("\n\t\t4.MILK SHAKE  RS:50");
 	printf("\n\n ENTER YOUR CHOICE  :");
-	scanf("%d",&ch);
-	switch(ch)
+	scanf("%d",&choice);
+	switch(choice)
 	{
 		case 1:
 			printf("\nYour have selected coffee");
