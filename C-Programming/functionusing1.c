@@ -3,26 +3,23 @@ void add()
 {
 	
 	int a,b,c;
-	printf("\n\tEnter Number for a");
+	printf("Enter Number for a : \n");
 	scanf("%d",&a);
-	printf("\n\tEnter Number for b");
+	printf("Enter Number for b : \n");
 	scanf("%d",&b);
 	c=a+b;
-	printf("\n\tTotal %d",c);
+	printf("Total %d\n",c);
 	
 }
 int main()
 {
 	int n,i;
-	printf("\nEnter the limite ");
+	printf("Enter the limit to add upto from 1 : ");
 	scanf("%d",&n);
 	for (i=1;i<=n;i++)
-	{	
-	
-		printf("\n\t\tAdding Time: %d ",i);
-		add();
-		
+	{
+		printf("Adding Time: %d \n",i);
 	}
-	
+	add();	
 	return 0;
 }
